@@ -1,15 +1,16 @@
 <?php
 //for
-
 for($i =  0; $i < 5; $i++){
     echo $i;
 }
+echo "</br>";
 
 // foreach
 $hola = array("manzana", "peras", "platano");
 foreach($hola as $frutas){
     echo "$frutas ";
 }
+echo "</br>";
 
 //while
 $numero = 5;
@@ -18,6 +19,7 @@ while( $i < $numero){
     $i++;
     echo($i);
 }
+echo "</br>";
 
 //do while
 
